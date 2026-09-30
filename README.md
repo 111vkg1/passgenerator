@@ -1,5 +1,5 @@
 # passgenerator
-## Rust-written password generator
+Rust-written password generator
 ### Download
 ```
 git clone https://github.com/111vkg1/passgenerator.git
