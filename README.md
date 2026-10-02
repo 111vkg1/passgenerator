@@ -17,6 +17,7 @@ cargo run
 ```
 
 ### Usage
+passgenrust :
 First prompt (4-32) - Password len
 Second prompt (y/n) - Include special syms
 Example session:
@@ -25,3 +26,5 @@ Example session:
     Input len [4-32]: 16
     Include special(!@#$%^&*) [y/n]: y
     Password: aB3$xY9kLmNpQ7Zt
+passgen :
+passgen -l <LEN> -s (specials)
