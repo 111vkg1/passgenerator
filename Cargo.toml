@@ -5,7 +5,12 @@ edition = "2024"
 
 [dependencies]
 rand = "0.8"
+clap = {version = "4", features = ["derive"]}
 
 [[bin]]
 name = "passgenrust"
 path = "src/main.rs"
+
+[[bin]]
+name = "passgen"
+path = "src/main_clap.rs"
